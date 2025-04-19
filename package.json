@@ -1,0 +1,17 @@
+{
+  "name": "bible-shadowing",
+  "version": "1.0.0",
+  "description": "ESV Bible Shadowing App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
