@@ -252,19 +252,19 @@ const bibleData = {
             "또 물어 이르되 네가 만일 그리스도도 아니요 엘리야도 아니요 그 선지자도 아닐진대 어찌하여 세례를 베푸느냐",
             "요한이 대답하되 나는 물로 세례를 베풀거니와 너희 가운데 너희가 알지 못하는 한 사람이 섰으니",
             "곧 내 뒤에 오시는 그이라 나는 그의 신발끈을 풀기도 감당하지 못하겠노라 하더라",
-            "이 일은 요한이 세례 베풀던 곳 요단 강 건너편 베다니에서 일어난 일이니라",
-            "이튿날 요한이 예수께서 자기에게 나아오심을 보고 이르되 보라 세상 죄를 지고 가는 하나님의 어린 양이로다",
-            "내가 전에 말하기를 내 뒤에 오는 사람이 있는데 나보다 앞선 것은 그가 나보다 먼저 계심이라 한 것이 이 사람을 가리킴이라",
-            "나도 그를 알지 못하였으나 내가 와서 물로 세례를 베푸는 것은 그를 이스라엘에 나타내려 함이라 하니라",
-            "요한이 또 증언하여 이르되 내가 보매 성령이 비둘기 같이 하늘에서 내려와서 그의 위에 머물렀더라",
-            "나도 그를 알지 못하였으나 나를 보내어 물로 세례를 베풀라 하신 그이가 나에게 말씀하시되 성령이 내려와서 누구 위에든지 머무는 것을 보거든 그가 곧 성령으로 세례를 베푸실 분이라고 하셨기에",
-            "내가 보고 그가 하나님의 아들이심을 증언하였노라 하니라",
-            "또 이튿날 요한이 자기 제자 중 두 사람과 함께 섰다가",
-            "예수께서 거니심을 보고 말하되 보라 하나님의 어린 양이로다",
-            "두 제자가 그의 말을 듣고 예수를 따르거늘",
-            "예수께서 돌이켜 그들이 따르는 것을 보시고 물어 이르시되 무엇을 구하느냐 이르되 랍비여 어디 계시오니이까 하니 (랍비는 번역하면 선생이라)",
+            "이 일은 요단강 건너편 베다니에서 일어났는데, 그곳은 요한이 세례를 베풀던 곳이었습니다.",
+            "다음 날 요한은 예수님이 자기에게 오시는 것을 보고 말했습니다. '보십시오! 세상의 죄를 지고 가는 하나님의 어린양입니다!",
+            "이분이 바로 내가 전에 말했던 분입니다. 내 뒤에 오시는 분이 나보다 앞서신 것은 나보다 먼저 계셨기 때문이라고 말했는데, 바로 이분을 가리켜 한 말입니다.",
+            "나도 이분을 알지 못했습니다. 그러나 내가 와서 물로 세례를 베푸는 것은 이분을 이스라엘에 나타내기 위해서입니다.'",
+            "요한은 또 증언했습니다. '나는 성령이 비둘기처럼 하늘에서 내려와 이분 위에 머물는 것을 보았습니다.",
+            "나는 이분을 알지 못했습니다. 그러나 나를 보내어 물로 세례를 베풀라고 하신 분이 내게 말씀하셨습니다. 성령이 내려와서 누구 위에 머무는 것을 보거든, 그분이 성령으로 세례를 베푸실 분이라고 하셨습니다.",
+            "나는 그것을 보았고, 이분이 하나님의 아들이심을 증언하였노라 하니라",
+            "다음 날 요한이 자기 제자 두 사람과 함께 서 있다가",
+            "예수님이 지나가시는 것을 보고 말하되 보라! 하나님의 어린양이시다!",
+            "두 제자는 요한이 하는 말을 듣고 예수님을 따라갔습니다.",
+            "예수님이 돌아보시고 그들이 따라오는 것을 보시고 물어 이르시되 무엇을 찾고 있느냐? 이르되 랍비여 어디에 머무르십니까?'",
             "예수께서 이르시되 와서 보라 그러므로 그들이 가서 계신 데를 보고 그 날 함께 거하니 때가 열 시쯤 되었더라",
-            "요한의 말을 듣고 예수를 따르는 두 사람 중의 하나는 시몬 베드로의 형제 안드레라",
+            "요한의 말을 듣고 예수님을 따라간 두 사람 중의 하나는 시몬 베드로의 형제 안드레라",
             "그가 먼저 자기의 형제 시몬을 찾아 말하되 우리가 메시야를 만났다 하고 (메시야는 번역하면 그리스도라)",
             "데리고 예수께로 오니 예수께서 보시고 이르시되 네가 요한의 아들 시몬이니 장차 게바라 하리라 하시니라 (게바는 번역하면 베드로라)",
             "이튿날 예수께서 갈릴리로 나가려 하시다가 빌립을 만나 이르시되 나를 따르라 하시니",
@@ -287,10 +287,7 @@ let currentlyPlaying = null;
 let voicePreference = 'male';
 let speechRate = 0.8;
 
-// Google Cloud TTS 설정
-const GOOGLE_CLOUD_API_KEY = 'YOUR_API_KEY'; // 실제 API 키로 교체 필요
-
-async function speakVerseWithGoogleTTS(text, verseElement) {
+function speakVerse(text, verseElement) {
     try {
         if (currentlyPlaying) {
             currentlyPlaying.classList.remove('playing');
@@ -301,50 +298,43 @@ async function speakVerseWithGoogleTTS(text, verseElement) {
 
         const isEnglish = text.match(/[a-zA-Z]/);
         const languageCode = isEnglish ? 'en-US' : 'ko-KR';
-        const voiceName = isEnglish 
-            ? (voicePreference === 'male' ? 'en-US-Neural2-D' : 'en-US-Neural2-F')
-            : (voicePreference === 'male' ? 'ko-KR-Neural2-B' : 'ko-KR-Neural2-C');
-
-        const response = await fetch('https://texttospeech.googleapis.com/v1/text:synthesize', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${GOOGLE_CLOUD_API_KEY}`
-            },
-            body: JSON.stringify({
-                input: { text: text },
-                voice: {
-                    languageCode: languageCode,
-                    name: voiceName
-                },
-                audioConfig: {
-                    audioEncoding: 'MP3',
-                    speakingRate: speechRate,
-                    pitch: voicePreference === 'male' ? -2.0 : 0.0
-                }
-            })
-        });
-
-        const data = await response.json();
-        const audioContent = data.audioContent;
-        const audio = new Audio('data:audio/mp3;base64,' + audioContent);
         
-        audio.onended = () => {
+        // 음성 합성 객체 생성
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = languageCode;
+        utterance.rate = speechRate;
+        
+        // 음성 선택
+        const voices = window.speechSynthesis.getVoices();
+        const preferredVoice = voices.find(voice => 
+            voice.lang === languageCode && 
+            (voicePreference === 'male' ? voice.name.includes('Male') : voice.name.includes('Female'))
+        );
+        
+        if (preferredVoice) {
+            utterance.voice = preferredVoice;
+        }
+        
+        // 재생 완료 이벤트 처리
+        utterance.onend = () => {
             verseElement.classList.remove('playing');
             currentlyPlaying = null;
         };
-
-        audio.play();
+        
+        // 오류 처리
+        utterance.onerror = (error) => {
+            console.error('TTS 오류:', error);
+            verseElement.classList.remove('playing');
+            currentlyPlaying = null;
+        };
+        
+        // 음성 재생
+        window.speechSynthesis.speak(utterance);
     } catch (error) {
-        console.error('Google TTS 오류:', error);
+        console.error('TTS 오류:', error);
         verseElement.classList.remove('playing');
         currentlyPlaying = null;
     }
-}
-
-// 기존 speakVerse 함수를 새로운 함수로 교체
-function speakVerse(text, verseElement) {
-    speakVerseWithGoogleTTS(text, verseElement);
 }
 
 // 구절 표시 함수
