@@ -153,7 +153,7 @@ const bibleData = {
             "예수님이 지나가시는 것을 보고 말하되 보라! 하나님의 어린양이시다!",
             "두 제자는 요한이 하는 말을 듣고 예수님을 따라갔습니다.",
             "예수님이 돌아보시고 그들이 따라오는 것을 보시고 물어 이르시되 무엇을 찾고 있느냐? 이르되 랍비여 어디에 머무르십니까?'",
-            "예수께서 이르시되 와서 보아라.' 그래서 그들은 가서 예수님이 계신 곳을 보고 그 날 예수님과 함께 머물렀습니다. 때는 오후 4시쯤이었습니다.",
+            "예수께서 이르시되 와서 보아라.' 그러므로 그들이 가서 예수님이 계신 곳을 보고 그 날 예수님과 함께 머물렀습니다. 때는 오후 4시쯤이었습니다.",
             "요한의 말을 듣고 예수님을 따라간 두 사람 중 하나는 시몬 베드로의 형제 안드레였습니다.",
             "그는 먼저 자기 형제 시몬을 찾아가서 말했습니다. '우리가 메시야를 만났다!'(메시야는 그리스도라는 뜻입니다)",
             "그리고 시몬을 예수님께 데려왔습니다. 예수님은 시몬을 보시고 말씀하셨습니다. '너는 요한의 아들 시몬이구나. 앞으로는 게바라고 하겠다.'(게바는 베드로라는 뜻입니다)",
@@ -186,15 +186,15 @@ const bibleData = {
             "말씀은 육신이 되어 우리 가운데 사셨습니다. 우리는 그분의 영광을 보았는데, 그것은 아버지의 독생자의 영광이었으며 은혜와 진리가 충만했습니다.",
             "요한은 그분에 대해 증언하며 외쳤습니다. '내가 전에 말했던 분이 바로 이분입니다. 내 뒤에 오시는 분이 나보다 앞서신 것은 나보다 먼저 계셨기 때문입니다.'",
             "우리는 모두 그분의 충만하심에서 은혜에 은혜를 받았습니다.",
-            "율법은 모세를 통해 주어졌지만, 은혜와 진리는 예수 그리스도를 통해 왔습니다.",
-            "지금까지 하나님을 본 사람은 없습니다. 그러나 아버지 품 안에 계신 독생하신 하나님이 그분을 알려 주셨습니다.",
+            "율법은 모세를 통해 주어졌지만, 은혜와 진리는 예수 그리스도를 통해 온 것이라",
+            "본래 하나님을 본 사람이 없으되 아버지 품 속에 있는 독생하신 하나님이 그분을 알려 주셨습니다.",
             "유대 지도자들이 예루살렘에서 제사장들과 레위인들을 요한에게 보내어 '당신은 누구입니까?'라고 물었을 때의 요한의 증언은 이러했습니다.",
             "요한은 숨기지 않고 분명히 말했습니다. '나는 그리스도가 아닙니다.'",
             "그들이 물었습니다. '그러면 당신은 누구입니까? 엘리야입니까?' 요한이 대답했습니다. '아닙니다.' '그러면 그 예언자입니까?' '아닙니다.'",
             "그래서 그들이 말했습니다. '당신은 누구입니까? 우리를 보낸 이들에게 대답할 수 있게 해 주십시오. 당신은 자신을 누구라고 말씀하십니까?'",
             "요한이 대답했습니다. '나는 예언자 이사야가 말한 대로 광야에서 외치는 소리입니다. 주님의 길을 곧게 만드십시오.'",
             "보냄을 받은 이들 중에는 바리새인들도 있었습니다.",
-            "그들이 요한에게 물었습니다. '당신이 그리스도도 아니고 엘리야도 아니고 그 예언자도 아니라면, 왜 세례를 베푸는 것입니까?'",
+            "그들이 요한에게 물었습니다. '당신이 그리스도도 아니고 엘리야도 아니고 그 예언자도 아닐진대 어찌하여 세례를 베푸느냐?'",
             "요한이 대답했습니다. '나는 물로 세례를 베풀지만, 여러분 가운데는 여러분이 알지 못하는 한 분이 서 계십니다.",
             "그분은 내 뒤에 오시는 분인데, 나는 그분의 신발 끈을 풀어 드리기도 감당하지 못합니다.'",
             "이 일은 요단강 건너편 베다니에서 일어났는데, 그곳은 요한이 세례를 베풀던 곳이었습니다.",
@@ -208,17 +208,17 @@ const bibleData = {
             "예수님이 지나가시는 것을 보고 말하되 보라! 하나님의 어린양이시다!",
             "두 제자는 요한이 하는 말을 듣고 예수님을 따라갔습니다.",
             "예수님이 돌아보시고 그들이 따라오는 것을 보시고 물어 이르시되 무엇을 찾고 있느냐? 이르되 랍비여 어디에 머무르십니까?'",
-            "예수께서 이르시되 와서 보아라.' 그래서 그들은 가서 예수님이 계신 곳을 보고 그 날 예수님과 함께 머물렀습니다. 때는 오후 4시쯤이었습니다.",
-            "요한의 말을 듣고 예수님을 따라간 두 사람 중 하나는 시몬 베드로의 형제 안드레였습니다.",
-            "그는 먼저 자기 형제 시몬을 찾아가서 말했습니다. '우리가 메시야를 만났다!'(메시야는 그리스도라는 뜻입니다)",
-            "그리고 시몬을 예수님께 데려왔습니다. 예수님은 시몬을 보시고 말씀하셨습니다. '너는 요한의 아들 시몬이구나. 앞으로는 게바라고 하겠다.'(게바는 베드로라는 뜻입니다)",
-            "다음 날 예수께서 갈릴리로 나가려 하시다가 빌립을 만나셨습니다. 예수님이 빌립에게 말씀하셨습니다. '나를 따라오너라.'",
-            "빌립은 안드레와 베드로와 같은 동네인 벳새다 출신이었습니다.",
-            "빌립이 나다나엘을 찾아가서 말했습니다. '우리가 모세의 율법과 예언자들의 글에 기록된 분을 만났습니다. 나사렛 사람 요셉의 아들 예수님이십니다.'",
-            "나다나엘이 말했습니다. '나사렛에서 무슨 선한 것이 날 수 있겠습니까?' 빌립이 대답했습니다. '와서 보십시오.'",
-            "예수께서 나다나엘이 자기에게 오는 것을 보시고 그를 가리켜 이르시되 보라, 참으로 순수한 이스라엘 사람이다. 그의 마음에는 거짓이 없다.'",
-            "나다나엘이 물었습니다. '어떻게 저를 아십니까?' 예수님이 대답하셨습니다. '빌립이 너를 부르기 전에, 네가 무화과나무 아래에 있을 때 내가 너를 보았다.'",
-            "나다나엘이 대답했습니다. '랍비님, 당신은 하나님의 아들이시요 당신은 이스라엘의 임금이로소이다",
+            "예수께서 이르시되 와서 보라 그러므로 그들이 가서 계신 데를 보고 그 날 함께 거하니 때가 열 시쯤 되었더라",
+            "요한의 말을 듣고 예수님을 따라간 두 사람 중의 하나는 시몬 베드로의 형제 안드레라",
+            "그가 먼저 자기의 형제 시몬을 찾아 말하되 우리가 메시야를 만났다 하고 (메시야는 번역하면 그리스도라)",
+            "데리고 예수께로 오니 예수께서 보시고 이르시되 네가 요한의 아들 시몬이니 장차 게바라 하리라 하시니라 (게바는 번역하면 베드로라)",
+            "이튿날 예수께서 갈릴리로 나가려 하시다가 빌립을 만나 이르시되 나를 따르라 하시니",
+            "빌립은 안드레와 베드로와 한 동네 벳새다 사람이라",
+            "빌립이 나다나엘을 찾아 이르되 모세가 율법에 기록하였고 여러 선지자가 기록한 그이를 우리가 만났으니 요셉의 아들 나사렛 예수라 하니",
+            "나다나엘이 이르되 나사렛에서 무슨 선한 것이 날 수 있느냐 빌립이 이르되 와서 보라 하니라",
+            "예수께서 나다나엘이 자기에게 오는 것을 보시고 그를 가리켜 이르시되 보라 이는 참으로 이스라엘 사람이라 그 속에 간사한 것이 없도다",
+            "나다나엘이 이르되 어떻게 나를 아시나이까 예수께서 대답하여 이르시되 빌립이 너를 부르기 전에 네가 무화과나무 아래에 있을 때에 보았노라",
+            "나다나엘이 대답하되 랍비여 당신은 하나님의 아들이시요 당신은 이스라엘의 임금이로소이다",
             "예수께서 대답하여 이르시되 내가 너를 무화과나무 아래에서 보았다 하므로 믿느냐 이보다 더 큰 일을 보게 될 것이다.'",
             "그리고 말씀하셨습니다. '내가 진실로 진실로 너희에게 말한다. 너희는 하늘이 열리고 하나님의 천사들이 인자 위에 오르락내리락하는 것을 보게 될 것이다.'"
         ]
@@ -281,10 +281,10 @@ const bibleData = {
 };
 
 // 현재 설정 상태
-let leftVersion = 'ESV';
-let rightVersion = 'KRV';
+let leftVersion = 'NIV';
+let rightVersion = 'KRV4';
 let currentlyPlaying = null;
-let voicePreference = 'male';
+let voicePreference = null; // 초기값을 null로 변경
 let speechRate = 0.8;
 
 function speakVerse(text, verseElement) {
@@ -307,15 +307,30 @@ function speakVerse(text, verseElement) {
         
         // 음성 선택
         const voices = window.speechSynthesis.getVoices();
-        console.log('사용 가능한 음성 목록:', voices);
         
-        // 기본 음성 선택
-        const defaultVoice = voices.find(voice => voice.lang === languageCode);
-        if (defaultVoice) {
-            utterance.voice = defaultVoice;
-            console.log('선택된 음성:', defaultVoice.name);
+        // voicePreference가 없거나 선택된 음성을 찾을 수 없는 경우
+        if (!voicePreference) {
+            // 언어에 맞는 기본 음성 선택
+            const defaultVoices = voices.filter(voice => voice.lang.startsWith(languageCode.substring(0, 2)));
+            if (defaultVoices.length > 0) {
+                voicePreference = defaultVoices[0].name;
+                console.log('기본 음성 선택:', voicePreference);
+            }
+        }
+        
+        const selectedVoice = voices.find(voice => voice.name === voicePreference);
+        
+        if (selectedVoice) {
+            utterance.voice = selectedVoice;
+            console.log('선택된 음성:', selectedVoice.name, '언어:', selectedVoice.lang);
         } else {
-            console.warn('해당 언어의 음성을 찾을 수 없습니다:', languageCode);
+            console.warn('선택된 음성을 찾을 수 없습니다:', voicePreference);
+            // 기본 음성으로 재시도
+            const defaultVoices = voices.filter(voice => voice.lang.startsWith(languageCode.substring(0, 2)));
+            if (defaultVoices.length > 0) {
+                utterance.voice = defaultVoices[0];
+                console.log('기본 음성으로 대체:', defaultVoices[0].name);
+            }
         }
         
         // 재생 완료 이벤트 처리
@@ -426,9 +441,62 @@ document.addEventListener('DOMContentLoaded', () => {
         displayVerses();
     });
     
+    // 음성 목록이 로드될 때까지 기다림
+    function setupVoices() {
+        const voices = window.speechSynthesis.getVoices();
+        console.log('사용 가능한 모든 음성:', voices.map(v => `${v.name} (${v.lang})`));
+        
+        // 음성 선택 메뉴 초기화
+        voiceSelect.innerHTML = '';
+        
+        // 영어 음성과 한국어 음성 분리
+        const englishVoices = voices.filter(voice => voice.lang.startsWith('en'));
+        const koreanVoices = voices.filter(voice => voice.lang.startsWith('ko'));
+        
+        // 영어 음성 옵션 추가
+        if (englishVoices.length > 0) {
+            const englishGroup = document.createElement('optgroup');
+            englishGroup.label = '영어 음성';
+            englishVoices.forEach(voice => {
+                const option = document.createElement('option');
+                option.value = voice.name;
+                option.textContent = voice.name;
+                englishGroup.appendChild(option);
+            });
+            voiceSelect.appendChild(englishGroup);
+        }
+        
+        // 한국어 음성 옵션 추가
+        if (koreanVoices.length > 0) {
+            const koreanGroup = document.createElement('optgroup');
+            koreanGroup.label = '한국어 음성';
+            koreanVoices.forEach(voice => {
+                const option = document.createElement('option');
+                option.value = voice.name;
+                option.textContent = voice.name;
+                koreanGroup.appendChild(option);
+            });
+            voiceSelect.appendChild(koreanGroup);
+        }
+        
+        // 기본 음성 선택
+        if (voiceSelect.options.length > 0) {
+            voiceSelect.selectedIndex = 0;
+            voicePreference = voiceSelect.value;
+        }
+    }
+    
     // 음성 선택 이벤트 처리
     voiceSelect.addEventListener('change', (e) => {
         voicePreference = e.target.value;
+        console.log('선택된 음성:', voicePreference);
+        
+        // 음성 변경 시 현재 재생 중인 음성 취소
+        if (currentlyPlaying) {
+            window.speechSynthesis.cancel();
+            currentlyPlaying.classList.remove('playing');
+            currentlyPlaying = null;
+        }
     });
     
     // 속도 조절 이벤트 처리
@@ -439,23 +507,11 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // 음성 목록이 로드될 때까지 기다림
     if (speechSynthesis.onvoiceschanged !== undefined) {
-        speechSynthesis.onvoiceschanged = function() {
-            const voices = window.speechSynthesis.getVoices();
-            console.log('사용 가능한 모든 음성:', voices.map(v => `${v.name} (${v.lang})`));
-            
-            // 음성 선택 옵션 업데이트
-            const voiceSelect = document.getElementById('voiceSelect');
-            if (voiceSelect) {
-                voiceSelect.innerHTML = '';
-                voices.forEach(voice => {
-                    const option = document.createElement('option');
-                    option.value = voice.name;
-                    option.textContent = `${voice.name} (${voice.lang})`;
-                    voiceSelect.appendChild(option);
-                });
-            }
-        };
+        speechSynthesis.onvoiceschanged = setupVoices;
     }
+    
+    // 초기 음성 설정
+    setupVoices();
     
     // 초기 구절 표시
     displayVerses();
