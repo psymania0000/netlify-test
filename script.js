@@ -106,7 +106,7 @@ const bibleData = {
             "Philip, like Andrew and Peter, was from the town of Bethsaida.",
             "Philip found Nathanael and told him, 'We have found the one Moses wrote about in the Law, and about whom the prophets also wrote—Jesus of Nazareth, the son of Joseph.'",
             "'Nazareth! Can anything good come from there?' Nathanael asked. 'Come and see,' said Philip.",
-            "When Jesus saw Nathanael approaching, he said of him, 'Here truly is an Israelite in whom there is no deceit.'",
+            "When Jesus saw Nathanael approaching, he said of him, 'Behold, an Israelite indeed, in whom there is no deceit.'",
             "'How do you know me?' Nathanael asked. Jesus answered, 'I saw you while you were still under the fig tree before Philip called you.'",
             "Then Nathanael declared, 'Rabbi, you are the Son of God; you are the king of Israel.'",
             "Jesus said, 'You believe because I told you I saw you under the fig tree. You will see greater things than that.'",
@@ -290,6 +290,7 @@ let speechRate = 0.8;
 function speakVerse(text, verseElement) {
     try {
         if (currentlyPlaying) {
+            window.speechSynthesis.cancel();
             currentlyPlaying.classList.remove('playing');
         }
         
@@ -306,17 +307,20 @@ function speakVerse(text, verseElement) {
         
         // 음성 선택
         const voices = window.speechSynthesis.getVoices();
-        const preferredVoice = voices.find(voice => 
-            voice.lang === languageCode && 
-            (voicePreference === 'male' ? voice.name.includes('Male') : voice.name.includes('Female'))
-        );
+        console.log('사용 가능한 음성 목록:', voices);
         
-        if (preferredVoice) {
-            utterance.voice = preferredVoice;
+        // 기본 음성 선택
+        const defaultVoice = voices.find(voice => voice.lang === languageCode);
+        if (defaultVoice) {
+            utterance.voice = defaultVoice;
+            console.log('선택된 음성:', defaultVoice.name);
+        } else {
+            console.warn('해당 언어의 음성을 찾을 수 없습니다:', languageCode);
         }
         
         // 재생 완료 이벤트 처리
         utterance.onend = () => {
+            console.log('재생 완료');
             verseElement.classList.remove('playing');
             currentlyPlaying = null;
         };
@@ -330,6 +334,7 @@ function speakVerse(text, verseElement) {
         
         // 음성 재생
         window.speechSynthesis.speak(utterance);
+        console.log('음성 재생 시작');
     } catch (error) {
         console.error('TTS 오류:', error);
         verseElement.classList.remove('playing');
@@ -432,14 +437,26 @@ document.addEventListener('DOMContentLoaded', () => {
         speedValue.textContent = speechRate.toFixed(1) + 'x';
     });
     
+    // 음성 목록이 로드될 때까지 기다림
+    if (speechSynthesis.onvoiceschanged !== undefined) {
+        speechSynthesis.onvoiceschanged = function() {
+            const voices = window.speechSynthesis.getVoices();
+            console.log('사용 가능한 모든 음성:', voices.map(v => `${v.name} (${v.lang})`));
+            
+            // 음성 선택 옵션 업데이트
+            const voiceSelect = document.getElementById('voiceSelect');
+            if (voiceSelect) {
+                voiceSelect.innerHTML = '';
+                voices.forEach(voice => {
+                    const option = document.createElement('option');
+                    option.value = voice.name;
+                    option.textContent = `${voice.name} (${voice.lang})`;
+                    voiceSelect.appendChild(option);
+                });
+            }
+        };
+    }
+    
     // 초기 구절 표시
     displayVerses();
-});
-
-// 음성 목록이 로드될 때까지 기다림
-if (speechSynthesis.onvoiceschanged !== undefined) {
-    speechSynthesis.onvoiceschanged = function() {
-        const voices = window.speechSynthesis.getVoices();
-        console.log('사용 가능한 모든 음성:', voices.map(v => `${v.name} (${v.lang})`));
-    };
-} 
+}); 
